@@ -1,24 +1,6 @@
 import React from "react";
-import axios from 'axios'
-import { useState } from "react";
 export default function Contact() {
-    const [msg,setMsg] = useState('');
-    const [user, setUser] = useState({
-      to: "",
-      Name: "",
-      Message: ""
-    });
-   
-    const { to, Name, Message} = user;
-    const onInputChange = e => {
-      setUser({ ...user, [e.target.name]: e.target.value });
-    };
-   
-    const onSubmit = async e => {
-      e.preventDefault();
-      await axios.post("http://localhost:5000/users/",user)
-     .then(response => setMsg(response.data.respMesg));
-    };
+    
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -77,8 +59,7 @@ export default function Contact() {
               id="name"
               name="from_name"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              onChange={onInputChange}
-              value={Name}
+              
             />
           </div>
           <div className="relative mb-4">
@@ -86,8 +67,7 @@ export default function Contact() {
               Email
             </label>
             <input
-            onChange={onInputChange}
-            value={to}
+          
               type="email"
               id="email"
               name="email"
@@ -102,19 +82,18 @@ export default function Contact() {
               Message
             </label>
             <textarea
-             onChange={onInputChange}
-             value={Message}
+          
               id="message"
               name="message"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"             
             />
           </div>
           <button
-          onClick={onSubmit}
+          
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
-          </button>{msg}
+          </button>
         </form>
       </div>
     </section>
