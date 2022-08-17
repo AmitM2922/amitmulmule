@@ -8,7 +8,10 @@ export default function Contact() {
   const [result, setResult] = useState(false);
   function sendEmail(e){
     e.preventDefault();
-    emailjs.sendForm('service_zsveawb', 'tempelate_v4soljn',e.target, 'uaFVWjWHpy0_1VxTZ')
+    emailjs.sendForm("service_zsveawb",
+      "tempelate_v4soljn",
+      e.target,
+      'uaFVWjWHpy0_1VxTZ')
       .then((r) => {
           console.log(r.text);
       }, (error) => {
