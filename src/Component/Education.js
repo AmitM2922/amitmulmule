@@ -1,8 +1,6 @@
 import React from 'react'
 import { AcademicCapIcon } from "@heroicons/react/solid";
-import { BookOpenIcon } from "@heroicons/react/solid";
 import { EducationData } from '../Data/EducationData'
-import "./Education.css"
 export default function Education() {
     return (
         <section id="educations" className="text-gray-400 bg-gray-900 body-font">
@@ -25,9 +23,9 @@ export default function Education() {
                                     <h1 className="title-font text-lg font-medium text-white mb-3">
                                         {data.Year}
                                     </h1>
-                                    <span className="title-font text-lg font-medium text-white mb-3">Course - {data.Course}</span>
-                                    <span className="title-font text-lg font-medium text-white mb-3">College - {data.College}</span>
-                                    <span className="title-font text-lg font-medium text-white mb-3">CGPA -  {data.CGPA}</span>
+                                    <div className="title-font text-lg font-medium text-white mb-3">Course - {data.Course}</div>
+                                    <div className="title-font text-lg font-medium text-white mb-3">College - {data.College}</div>
+                                    <div className="title-font text-lg font-medium text-white mb-3">CGPA -  {data.CGPA}</div>
                                 </div>
                             </div>
                         </div>
