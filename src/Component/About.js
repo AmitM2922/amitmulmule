@@ -9,12 +9,12 @@ export default function About() {
             I'm Amit Mulmule.
             <br className="hidden lg:inline-block" />
           </h1>
-          <p className="mb-8 leading-relaxed text-white text-xl">
+          <p className="mb-8 leading-relaxed text-gray-400 text-lg font-medium">
             
             I done my Bachelor Degree in Electronic and Communication Engineering
             from TIT College .<br/>
             I am a skilled and Experienced React JS Developer. I have the potential of converting ideas into working products.
-            I am also highly skilled in .NET CORE , SQL SERVER , JAVA , PYTHON, .
+            I am also highly skilled in .NET CORE , SQL SERVER , JAVA , PYTHON .
           </p>
           <div className="flex justify-center">
             <a

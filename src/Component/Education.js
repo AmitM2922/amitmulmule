@@ -20,12 +20,12 @@ export default function Education() {
                                     <h1 className="tracking-widest text-xl title-font font-medium text-green-400 mb-1">
                                         {data.Title}
                                     </h1>
-                                    <h1 className="title-font text-lg font-medium text-white mb-3">
+                                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">
                                         {data.Year}
                                     </h1>
-                                    <div className="title-font text-lg font-medium text-white mb-3">Course - {data.Course}</div>
-                                    <div className="title-font text-lg font-medium text-white mb-3">College - {data.College}</div>
-                                    <div className="title-font text-lg font-medium text-white mb-3">CGPA -  {data.CGPA}</div>
+                                    <div className="title-font text-lg font-medium text-gray-400 mb-3">Course - {data.Course}</div>
+                                    <div className="title-font text-lg font-medium text-gray-400 mb-3">College - {data.College}</div>
+                                    <div className="title-font text-lg font-medium text-gray-400 mb-3">CGPA -  {data.CGPA}</div>
                                 </div>
                             </div>
                         </div>

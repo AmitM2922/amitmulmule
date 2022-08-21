@@ -24,7 +24,7 @@ export default function Experience() {
                                 Dec 2021 - Present
                             </h1>
                             <div className="title-font text-lg font-medium text-white mb-3">Software Developer</div>
-                            <div className="title-font text-lg font-medium text-white mb-3">
+                            <div className="title-font text-m font-medium text-gray-400 mb-3">
                                 <li>Highly responsible for creating Web application using React</li>
                                 <li>Worked on a web application that utilized HTML, CSS, React JS, and .NET Core also.</li>
                                 <li>Developed Modules of the applications in ASP.NET Core and was involved in writing C# Classes.</li>

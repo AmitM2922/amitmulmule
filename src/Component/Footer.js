@@ -91,15 +91,6 @@ export default function Footer() {
       </a>
     </div>
 
-    
-
-    <div className="mb-6">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
-    </div>
 
     <div className="grid lg:grid-cols-4 md:grid-cols-2">
       <div className="mb-6">
@@ -107,16 +98,16 @@ export default function Footer() {
 
         <ul className="list-none mb-0">
           <li>
-            <span style={{fontWeight:'bold',color:'silver'}}>Address :</span><span className='text-xl'> Near Prabhat Petrol Pump </span><br/>
-            <span className='text-xl'>462023 Bhopal,Madhya Pradesh</span><br/>    
+            <span className='text-gray-400 font-bold'>Address :</span><span className='text-lg text-gray-400'> Near Prabhat Petrol Pump </span><br/>
+            <span className='text-lg text-gray-400'>462023 Bhopal,Madhya Pradesh</span><br/>    
           </li>
           <li>
-            <span style={{fontWeight:'bold',color:'silver'}}>Email : </span>
-            <span className='text-xl'>amitmulmule4@gmail.com</span>
+            <span className='text-gray-400 font-bold'>Email : </span>
+            <span className='text-lg text-gray-400'>amitmulmule4@gmail.com</span>
           </li>
           <li>
-           <span style={{fontWeight:'bold',color:'silver'}}>Phone : </span>
-           <span className='text-xl'> +91-9067550461</span>
+           <span className='text-gray-400 font-bold'>Phone : </span>
+           <span className='text-lg text-gray-400'> +91-9067550461</span>
           </li>
           <li>
            
@@ -124,43 +115,26 @@ export default function Footer() {
         </ul>
       </div>
 
-      <div className="mb-6">
-        <h5 className="uppercase font-bold mb-2.5">Links</h5>
-
-        <ul className="list-none mb-0">
-          <li>
-            <a href="#!" className="text-white">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 4</a>
-          </li>
-        </ul>
-      </div>
+      
 
       <div className="mb-6">
         <h5 className="uppercase font-bold mb-2.5">Navigate</h5>
 
-        <ul className="list-none mb-0 text-xl">
+        <ul className="list-none mb-0 text-sm font-bold">
           <li>
-            <a href="#!" className="text-white">About</a>
+            <a href="#about" className="text-gray-400">About</a>
           </li>
           <li>
-            <a href="#!" className="text-white">Education</a>
+            <a href="#education" className="text-gray-400">Education</a>
           </li>
           <li>
-            <a href="#!" className="text-white">Experience</a>
+            <a href="#experience" className="text-gray-400">Experience</a>
           </li>
           <li>
-            <a href="#!" className="text-white">Projects</a>
+            <a href="#projects" className="text-gray-400">Projects</a>
           </li>
           <li>
-            <a href="#!" className="text-white">Skills</a>
+            <a href="#skills" className="text-gray-400">Skills</a>
           </li>
         </ul>
       </div>
