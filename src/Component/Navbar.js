@@ -1,6 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
-import logo from "../Assest/logo.png"
 export default function Navbar() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-20">
