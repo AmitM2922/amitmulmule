@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/amitmulmule/static/css/main.a46a8447.css",
-    "main.js": "/amitmulmule/static/js/main.dbb1ef34.js",
+    "main.css": "/amitmulmule/static/css/main.2265f4ef.css",
+    "main.js": "/amitmulmule/static/js/main.8e89d522.js",
     "static/js/787.1f11dfe9.chunk.js": "/amitmulmule/static/js/787.1f11dfe9.chunk.js",
-    "static/media/logo.png": "/amitmulmule/static/media/logo.4aaf39e498d820e751f3.png",
+    "static/media/amit2.jpg": "/amitmulmule/static/media/amit2.40e65270218927bec2ee.jpg",
     "index.html": "/amitmulmule/index.html",
-    "main.a46a8447.css.map": "/amitmulmule/static/css/main.a46a8447.css.map",
-    "main.dbb1ef34.js.map": "/amitmulmule/static/js/main.dbb1ef34.js.map",
+    "main.2265f4ef.css.map": "/amitmulmule/static/css/main.2265f4ef.css.map",
+    "main.8e89d522.js.map": "/amitmulmule/static/js/main.8e89d522.js.map",
     "787.1f11dfe9.chunk.js.map": "/amitmulmule/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a46a8447.css",
-    "static/js/main.dbb1ef34.js"
+    "static/css/main.2265f4ef.css",
+    "static/js/main.8e89d522.js"
   ]
 }
