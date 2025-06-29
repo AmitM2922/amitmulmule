@@ -61,39 +61,26 @@ export const projects = [
 • Used GitHub for source control, feature branching, and code reviews to maintain code quality and team collaboration.
 `
 }
-
-
 ];
 
 export const skills = [
-  {
-    skill: ".NET CORE"
-  },
-  {
-    skill: "ASP.NET"
-  },
-  {
-    skill: "RestFull API"
-  },
-  {
-    skill: "React"
-  },
-  {
-    skill: "Express js"
-  },
-  {
-    skill: "Javascript"
-  },
-  {
-    skill: "SQL Server"
-  },
-  {
-    skill: "Angular"
-  },
-  {
-    skill: "Core Java"
-  }
-  , {
-    skill: "Python"
-  },
-]
+  { skill: ".NET Core" },
+  { skill: "ASP.NET" },
+  { skill: "RESTful API" },
+  { skill: "React" },
+  { skill: "Angular" },
+  { skill: "Express.js" },
+  { skill: "JavaScript" },
+  { skill: "SQL Server" },
+  { skill: "Core Java" },
+  { skill: "Python" },
+];
+
+export const tools = [
+  { tool: "Git & GitHub" },
+  { tool: "Jira" },
+  { tool: "Postman" },
+  { tool: "Visual Studio Code" },
+  { tool: "Visual Studio " },
+  { tool: "SQL Server Management Studio" },
+];
