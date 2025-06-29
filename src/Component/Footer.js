@@ -144,7 +144,7 @@ export default function Footer() {
   </div>
 
   <div className="text-center p-4">
-    © 2022 - 2023 
+    © 2024 - 2025
     <a className="text-white text-lg" href="https://AmitM2922.github.io/amitmulmule/"> Amit S Mulmule</a>
   </div>
 </footer>
